@@ -1,4 +1,14 @@
 #Data types and operators
+Write a program to add two integers.
+Write a program to subtract two floats.
+Write a program to multiply two numbers.
+Write a program to divide two numbers and handle division by zero.
+Write a program to find the remainder of two numbers using the modulus operator.
+Write a program to swap two variables without using a third variable.
+Write a program to check if a number is even or odd.
+Write a program to find the square of a number.
+Write a program to find the cube of a number.
+Write a program to convert Celsius to Fahrenheit.
 #Q1
 NUM_1 = float(input("Enter the Number : "))
 NUM_2 = float(input("Enter the Number : "))
