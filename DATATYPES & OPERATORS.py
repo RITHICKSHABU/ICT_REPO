@@ -1,107 +1,77 @@
-#Data types and operators
-Write a program to add two integers.
-Write a program to subtract two floats.
-Write a program to multiply two numbers.
-Write a program to divide two numbers and handle division by zero.
-Write a program to find the remainder of two numbers using the modulus operator.
-Write a program to swap two variables without using a third variable.
-Write a program to check if a number is even or odd.
-Write a program to find the square of a number.
-Write a program to find the cube of a number.
-Write a program to convert Celsius to Fahrenheit.
-#Q1
+# Data types and operators
+# Write a program to add two integers.
+# Write a program to subtract two floats.
+# Write a program to multiply two numbers.
+# Write a program to divide two numbers and handle division by zero.
+# Write a program to find the remainder of two numbers using the modulus operator.
+# Write a program to swap two variables without using a third variable.
+# Write a program to check if a number is even or odd.
+# Write a program to find the square of a number.
+# Write a program to find the cube of a number.
+# Write a program to convert Celsius to Fahrenheit.
+# Q1
 NUM_1 = float(input("Enter the Number : "))
 NUM_2 = float(input("Enter the Number : "))
 ADD = NUM_1 + NUM_2
 print(ADD)
 
-#Q2
+# Q2
 NUM_1 = float(input("ENTER A NUMBER :"))
 NUM_2 = float(input("ENTER A NUMBER :"))
 SUB = NUM_1 - NUM_2
 print(SUB)
 
-#Q3
+# Q3
 NUM_1 = float(input("ENTER A NUMBER :"))
 NUM_2 = float(input("ENTER A NUMBER :"))
 MUL = NUM_1 * NUM_2
 print(MUL)
 
-#Q4
+# Q4
 NUM_1 = float(input("ENTER A NUMBER :"))
 NUM_2 = float(input("ENTER A NUMBer ;"))
-if(NUM_1 == 0):
+if NUM_1 == 0:
     print("Numorator cannot be zero")
-elif(NUM_2 == 0):
+elif NUM_2 == 0:
     print("ZERO")
 else:
-  print(NUM_1 / NUM_2)
-    
-#Q5
+    print(NUM_1 / NUM_2)
+
+# Q5
 NUM_1 = float(input("ENTER A NUMBER :"))
 NUM_2 = float(input("ENTER A NUMBER :"))
 DIFF = NUM_1 % NUM_2
-print("THE REMAINDER OF TWO NUMBERS ARE",DIFF)
+print("THE REMAINDER OF TWO NUMBERS ARE", DIFF)
 
-#Q6
+# Q6
 num1 = int(input("ENTER A NUMBER :"))
 num2 = int(input("ENTER A NUMBER :"))
-num1 = num1 + num2#adds both num and assign a new value for num1
-num2 = num1 - num2#sub the num2 value with the newly assigned num1 value and assign a new num2 value
-num1 = num1 - num2#sub the newely assigned values and prints the output
-print("NUM_1 =",num1)
-print("NUM_2 =",num2)
+num1 = num1 + num2  # adds both num and assign a new value for num1
+num2 = (
+    num1 - num2
+)  # sub the num2 value with the newly assigned num1 value and assign a new num2 value
+num1 = num1 - num2  # sub the newely assigned values and prints the output
+print("NUM_1 =", num1)
+print("NUM_2 =", num2)
 
-#Q7
+# Q7
 num = int(input("ENTER A NUMBER :"))
-if(num%2 == 0):
-    print("THE GIVEN NUMBER" ,num, "IS EVEN")
-elif(num%2 == 1):
-    print("THE GIVEN NUMBER" ,num, "IS ODD")
+if num % 2 == 0:
+    print("THE GIVEN NUMBER", num, "IS EVEN")
+elif num % 2 == 1:
+    print("THE GIVEN NUMBER", num, "IS ODD")
 
-#Q8
+# Q8
 num = int(input("ENTER A NUMBER :"))
 SQUARE = num**2
-print("THE SQUARE VALUE OF" ,num, "is" ,SQUARE)
+print("THE SQUARE VALUE OF", num, "is", SQUARE)
 
-#Q9
+# Q9
 num = int(input("ENTER A NUMBER :"))
 CUBE = num**3
-print("THE CUBE VALUE OF" ,num, "is" ,CUBE)
+print("THE CUBE VALUE OF", num, "is", CUBE)
 
-#Q10
+# Q10
 celcius = float(input("ENTER THE TEMPERATURE IN CELCIUS :"))
 fahrenhit = (celcius * 1.8) + 32
-print("THE TEMP IN FARHENHIT IS" ,fahrenhit,"F")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print("THE TEMP IN FARHENHIT IS", fahrenhit, "F")
